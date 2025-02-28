@@ -53,26 +53,26 @@ p {
 
 
 html,
-body { /* Requirement-2.B */
-    line-height: 1.5; /* Requirement-2.2 */
-    min-height: 100vh; /* Requirement-2.7 */
-	font-family: 'Inter', sans-serif; /* Requirement-2.1 */
+body { 
+    line-height: 1.5; 
+    min-height: 100vh; 
+	font-family: 'Inter', sans-serif; 
 	font-size: var(--fs-400);
-	background-color: var(--clr-steel-gray); /* Requirement-2.4 */
-	color: var(--clr-gray); /* Requirement-2.3 */
+	background-color: var(--clr-steel-gray); 
+	color: var(--clr-gray); 
 	scroll-behavior: smooth;
 }
 
-img { /* Requirement-2.A */
-    max-width: 100%; /* Requirement-2.10 */
-    display: block; /* Requirement-2.12 */
+img { 
+    max-width: 100%; 
+    display: block; 
 }
 
 figcaption {
 	text-align: center;
 	font-size: var(--fs-200);
 	font-style: italic;
-	margin-top: 10px; /* Requirement-2.6 */
+	margin-top: 10px; 
 }
 
 a {
@@ -88,21 +88,21 @@ h2 {
 	font-family: 'Satoshi', sans-serif;
 	font-weight: bold;
 	font-size: var(--fs-700);
-	margin-bottom: 5px; /* Requirement-2.9 */
+	margin-bottom: 5px; 
 }
 
-details { /* Requirement-2.G */
+details { 
 	width: 22em;
 	padding: 0.5em 0.5em 0;
 	text-align: center;
 	color: var(--clr-steel-gray);
 	box-shadow: 0 0 10px var(--clr-gray);
-	border: 1px solid var(--clr-light-gray); /* Requirement-2.5 */
+	border: 1px solid var(--clr-light-gray); 
 	border-radius: 5px;
 	background-color: var(--clr-gray);
 }
 
-summary { /* Requirement-2.H */
+summary { 
 	margin: -0.5em -0.5em 0;
 	padding: 0.5em;
 	font-weight: bold;
@@ -114,7 +114,7 @@ details h4 {
 
 details ul {
 	padding: 0;
-	list-style: none; /* Requirement-2.8 */
+	list-style: none; 
 }
 
 details[open] summary {
@@ -168,10 +168,10 @@ select {
 /* nav */
 
 header {
-	position: sticky; /* Requirement-2.15 */
+	position: sticky; 
 	top: 0;
 	width: 100%;
-	z-index: 10; /* Requirement-2.17 */
+	z-index: 10; 
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -207,7 +207,7 @@ header {
 	font-size: var(--fs-300);
 }
 
-#site-icon:hover { /* Requirement-2.E */
+#site-icon:hover { 
 	color: var(--clr-yellow);
 	text-shadow: 0 0 5px var(--clr-yellow);
 	cursor: pointer;
@@ -245,7 +245,7 @@ header {
 	background: linear-gradient(var(--clr-gray) 65%, var(--clr-steel-gray));
 }
 
-#hero p { /* Requirement-2.F */
+#hero p { 
 	width: 45ch;
 	margin-top: 10px;
 }
@@ -265,7 +265,7 @@ header {
 
 /* about */
 
-#about { /* Requirement-2.D */
+#about { 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -278,7 +278,7 @@ header {
 	margin-bottom: 40px;
 }
 
-.about-container { /* Requirement-2.C */
+.about-container { 
 	display: flex;
 	gap: 3em;
 }
@@ -460,12 +460,12 @@ header {
 }
 
 #wrapped-footer p {
-	clear: both; /* Requirement-2.13 */
+	clear: both; 
 }
 
 .wrapped-psyduck {
 	width: 50px;
-	float: left; /* Requirement-2.11 */
+	float: left; 
 }
 
 table {
@@ -527,7 +527,7 @@ table li:nth-child(2n) {
 	}
 
 	#wrapped-footer {
-		visibility: hidden; /* Requirement-2.16 */
+		visibility: hidden; 
 	}
 }
 
@@ -644,7 +644,7 @@ table li:nth-child(2n) {
 	}
 
 	.spotify-import {
-		overflow: hidden scroll; /* Requirement-2.14 */
+		overflow: hidden scroll; 
 		margin-inline: auto;
 		height: 100px;
 	}
