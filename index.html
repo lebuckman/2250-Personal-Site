@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./assets/psyduck.png">
+	<title>Personal Website | Home</title>
+	<link rel="stylesheet" href="./style.css">
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div id="site-icon">
+			<img src="./assets/psyduck.png" alt="Psyduck icon">
+			<span>Liam's CS2250 Website</span>
+			<a href="./index.html" aria-label="Jump directly to main content of page"></a>
+		</div>
+		
+		<nav id="primary-navigation">
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./index.html#about">About</a></li>
+				<li><a href="./index.html#gallery">Gallery</a></li>
+				<li><a href="./index.html#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="hero">
+			<div>
+				<h1>Hello, my name is <span id="hero-name">Liam Buckman</span></h1>
+				<p>I am a second year Computer Science major at Cal Poly Pomona who hopes to hone my development skills in <span class="accent bold">CS2250</span>.</p>
+			</div>
+			<img id="hero-img" src="./assets/psyduck-headache.gif" alt="Psyduck shaking his head">
+		</section>
+
+		<section id="about">
+			<div>
+				<h2>About me</h2>
+				<p>Some things about me. <a href="./wrapped.html">View my 2024 Wrapped.</a></p>
+			</div>
+			<article class="about-container">
+				<figure>
+					<img src="./assets/teacup.PNG" width="220" title="Teacup" alt="Liam's Yorkshire Terrior, Teacup">
+					<figcaption>My Yorkie, Teacup</figcaption>
+				</figure>
+				<div class="about-info">
+					<details>
+						<summary>My Coding Journey</summary>
+						<h4>Developed</h4>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+						</ul>
+						<h4>Developing / Need Practice</h4>
+						<ul>
+							<li>Java</li>
+							<li>React</li>
+							<li>Figma (UI)</li>
+							<li>Github</li>
+						</ul>
+						<h4>Planned</h4>
+						<ul>
+							<li>Python</li>
+							<li>AWS</li>
+						</ul>
+					</details>
+					<details>
+						<summary>My Favorites</summary>
+						<ul>
+							<li><span class="bold">Food:</span> Pad thai</li>
+							<li><span class="bold">Color:</span> Purple</li>
+							<li><span class="bold">Book:</span> The Song of Achilles</li>
+							<li><span class="bold">Music Genre:</span> Kpop</li>
+							<li><span class="bold">Movie/Series Genre:</span> Action, Suspense</li>
+						</ul>
+					</details>
+				</div>
+			</article>
+		</section>
+
+		<section id="gallery">
+			<div>
+				<h2>Photo Gallery</h2>
+				<p>Some photos I've taken recently. <a href="https://youtu.be/xvFZjo5PgG0" target="_blank">View more photos here.</a></p>
+			</div>
+			<div class="gallery-container">
+				<img src="./assets/gallery-photos/rainbow.JPG" class="vertical" alt="A plant with sunlight shining on it, creating a rainbow.">
+				<img src="./assets/gallery-photos/chalk.JPG" alt="A yellow chalk heart on the ground.">
+				<img src="./assets/gallery-photos/crows.JPG" alt="A crow on a branch looking up at a flying crow.">
+				<img src="./assets/gallery-photos/cube.JPG" alt="A DIY paper cube with optical-illusion designs.">
+				<img src="./assets/gallery-photos/bear.JPG" alt="A teddy bear with a USA sailor outfit.">
+				<img src="./assets/gallery-photos/dandelion.JPG" alt="A white dandelion.">
+				<img src="./assets/gallery-photos/lizard.png" alt="A small lizard hidden behind the branches of a flower bush.">
+			</div>
+		</section>
+	</main>
+
+	<footer id="contact">
+		<form action="#" class="contact-form">
+			<fieldset>
+				<legend>Get In Touch</legend>
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name" placeholder="John Doe" required>
+				
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" placeholder="j.doe@example.com" required>
+				
+				<label for="comment">Message:</label>
+				<textarea name="comment" id="comment" placeholder="Hello..."></textarea>
+				
+				<button>Subscribe to newsletter</button>
+			</fieldset>
+		</form>
+		<p class="footer">
+			<small>Thank you for visiting! Contact me via email (<a href="mailto:lebuckman@cpp.edu">lebuckman@cpp.edu</a>).</small>
+		</p>
+	</footer>
+</body>
+</html>
